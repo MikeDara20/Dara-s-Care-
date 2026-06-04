@@ -29,3 +29,4 @@ Every line of code here is proof: broken floors don’t mean broken dreams.
 **Built by Mike | Father of Dara + Fumi | MikeDara20**
 
 *Kingdom Land starts with code.*
+# HASHEM IS NOT MOCKED 
