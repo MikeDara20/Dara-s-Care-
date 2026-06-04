@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html> <head>
+<html lang="en">
+<head>
 <meta charset="UTF-8">
-<title>Dara's Care - Built from Egypt</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dara's Care - Medical Support App</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f0f8ff;margin:0;padding:20px;text-align:center}
+h1{color:#2c5f8a}
+.box{background:white;padding:20px;border-radius:10px;max-width:400px;margin:20px auto;box-shadow:0 2px 5px rgba(0,0,0,0.1)}
+button{background:#2c5f8a;color:white;border:none;padding:12px 24px;border-radius:5px;font-size:16px;margin:10px;cursor:pointer}
+input{padding:10px;width:80%;margin:8px;border:1px solid #ccc;border-radius:5px}
+</style>
 </head>
 <body>
-<h1>Dara's Care</h1>
-<p>Built from Egypt with love</p>
+<h1>🏥 Dara's Care</h1>
+<p>Built from Egypt with love ❤️</p>
+
+<div class="box">
+<h3>Book Patient Appointment</h3>
+<input type="text" placeholder="Patient Name" id="name">
+<br>
+<input type="tel" placeholder="Phone Number" id="phone">
+<br>
+<button onclick="alert('Thank you '+document.getElementById('name').value+'! We will call you soon.')">Book Now</button>
+</div>
+
+<div class="box">
+<h3>Health Tips</h3>
+<p>💧 Drink water every 2 hours</p>
+<p>😴 Sleep 7-8 hours for healing</p>
+<p>🧼 Wash hands before eating</p>
+</div>
+
+<p style="margin-top:40px;font-size:12px;color:gray">Made by Daddy Mike | 2026</p>
 </body>
 </html>
